@@ -7,7 +7,7 @@ const CreateNews = ()  => {
     const [title, setTitle] = useState(null)
 
     const  generateRandomNumber = () => {
-        return Math.floor(Math.random() * 9)
+        return Math.floor(Math.random() * 500)
     }
 
     const createPost = (e) => {
@@ -36,7 +36,9 @@ const CreateNews = ()  => {
             .then((response) => response.json())
             .then((json) => {
                 alert('Post created successfully')
-            });
+            }).catch((err) => {
+                throw new Error(err)
+            })
     }
     return (
         <div>
