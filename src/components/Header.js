@@ -1,10 +1,14 @@
 import React from 'react'
+import {withRouter} from 'react-router-dom';
+
 
  const Header = () => {
+   
     return (
         <div className="header">
-            <h1>Task Manager</h1>
+            <h1>Header</h1>  
+            
         </div>
     )
 }
-export default Header
+export default withRouter(Header)
