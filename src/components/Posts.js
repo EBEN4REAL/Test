@@ -31,7 +31,7 @@ class Posts extends React.Component {
     }
     render() {
       return (
-        <div>
+        <>
           {!this.state.loading ? this.state.posts.map((post) => (
             <Post
                 key={post.id}
@@ -40,7 +40,7 @@ class Posts extends React.Component {
                 clickHandler={() => this.goToPostDetails(post.id)}
             />
           )) : <p>Loading</p>}
-        </div>
+        </>
       );
     }
   }

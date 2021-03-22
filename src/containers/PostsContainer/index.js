@@ -19,10 +19,9 @@ const PostWrapper =  (props) => {
                 </article>
             </div>
             <div class="col-md-7">
-                
+                <button onClick={(e) => linkCreateNews(e)}> Create Post</button>
+                <Posts />
             </div>
-            {/* <button onClick={(e) => linkCreateNews(e)}>Create News</button> */}
-            <Posts />
         </div>
     )
 }
