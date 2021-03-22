@@ -11,7 +11,12 @@ const PostWrapper =  (props) => {
     return (
         <div class="row">
             <div class="col-md-4">
-                <article class="side"></article>
+                <article class="sideNav">
+                    <h6 class="p-4">Filters</h6>
+                    <div class="filter-wrapper ">
+                        <h6 class="p-4">By Date</h6>
+                    </div>
+                </article>
             </div>
             <div class="col-md-7">
                 
