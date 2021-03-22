@@ -9,8 +9,14 @@ const PostWrapper =  (props) => {
         props.history.push({pathname: '/createNews'});
     }
     return (
-        <div>
-            <button onClick={(e) => linkCreateNews(e)}>Create News</button>
+        <div class="row">
+            <div class="col-md-4">
+                <article class="side"></article>
+            </div>
+            <div class="col-md-7">
+                
+            </div>
+            {/* <button onClick={(e) => linkCreateNews(e)}>Create News</button> */}
             <Posts />
         </div>
     )
