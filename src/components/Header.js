@@ -12,7 +12,7 @@ import SearchIcon from '../assets/img/search.png'
             <header className="header-container">
                 <div className="headerWrapper">
                     <div className="logo">
-                        <img src={Logo} />
+                        <img src={Logo} width="68" />
                     </div>
                     <div className="search-container">
                         <div className="inputWrapper">
