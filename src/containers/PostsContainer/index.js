@@ -9,16 +9,22 @@ const PostWrapper =  (props) => {
         props.history.push({pathname: '/createNews'});
     }
     return (
-        <div class="row">
-            <div class="col-md-4">
-                <article class="sideNav">
-                    <h6 class="p-4">Filters</h6>
-                    <div class="filter-wrapper ">
-                        <h6 class="p-4">By Date</h6>
-                    </div>
+        <div className="row">
+            <div className="col-md-4">
+                <article className="sideNav">
+                    <h6 className="p-4">Filters</h6>
+                    <div className="filter-wrapper ">
+                        <h6 className="p-2">By Date</h6>
+                        <div className="ml-3 p-2">
+                            <input type="radio"  /> <span>Anytime</span>
+                        </div>
+                        <div className="ml-3  p-2">
+                            <input type="radio" /> <span>Custom range</span>
+                        </div>
+                     </div>
                 </article>
             </div>
-            <div class="col-md-7">
+            <div className="col-md-7">
                 <button onClick={(e) => linkCreateNews(e)}> Create Post</button>
                 <Posts />
             </div>
