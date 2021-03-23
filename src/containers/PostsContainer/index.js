@@ -10,7 +10,7 @@ const PostWrapper =  (props) => {
     }
     return (
         <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-3">
                 <article className="sideNav">
                     <h6 className="p-4">Filters</h6>
                     <div className="filter-wrapper ">

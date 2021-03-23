@@ -21,6 +21,7 @@ form input img {
   height: 105px;
   background: #FFFFFF;
   border-bottom: lightgray;
+  height: 91px;
 }
 .headerWrapper {
   margin: 0;
@@ -48,6 +49,9 @@ form input img {
   border-radius: 5px;
   display: flex;
   padding: 5px;
+  align-items: center;
+  height: 40px;
+  padding: 3px;
 }
 .headerWrapper .inputWrapper .search-input {
   flex: 0 0 80%
