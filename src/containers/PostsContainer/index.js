@@ -21,6 +21,15 @@ const PostWrapper =  (props) => {
                         <div className="ml-3  p-2">
                             <input type="radio" /> <span>Custom range</span>
                         </div>
+                        <div className="ml-3  p-2">
+                            <input type="date" className="w-100" /> 
+                        </div>
+                     </div>
+                     <div className="filter-wrapper mt-3">
+                        <h6 className="p-2">By Document Type</h6>
+                        <div className="ml-3 p-2">
+                            <input type="text" className="w-100"  /> 
+                        </div>
                      </div>
                 </article>
             </div>
